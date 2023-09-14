@@ -12,6 +12,6 @@ public class DemoController {
     @GetMapping("/get")
     public ResponseEntity<String > hello()
     {
-        return ResponseEntity.ok("Hello fro secured End Point");
+        return ResponseEntity.ok("Hello fro seured End Point");
     }
 }
